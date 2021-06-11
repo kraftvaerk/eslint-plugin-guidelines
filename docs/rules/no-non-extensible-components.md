@@ -13,8 +13,6 @@ Make sure to export the class and variable declarations
 Examples of **incorrect** code for this rule:
 
 ```js
-import { PureComponent } from 'react';
-
 const B = 123;
 
 class A {
@@ -27,8 +25,6 @@ export default A;
 Examples of **correct** code for this rule:
 
 ```js
-// notice no PureComponent import
-
 export const B = 123;
 
 export class A {
